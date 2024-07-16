@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.banner {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.checked {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    color: green;
+    font-size: 2rem;
+}
+
+.checked svg {
+    margin-bottom: 10px;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
